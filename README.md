@@ -1,8 +1,10 @@
 # Typical Ansible Directory Layout
 
 ```
-production                # inventory file for production servers
-stage                     # inventory file for stage environment
+inventories/
+    production            # inventory file for production servers
+    development           # inventory file for development servers
+    vagrant               # inventory file for local development vms, instantiated by vagrant
 
 group_vars/
    group1                 # here we assign variables to particular groups
