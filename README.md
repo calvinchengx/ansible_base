@@ -1,5 +1,7 @@
 # Typical Ansible Directory Layout
 
+Complex directory:
+
 ```
 inventories/
     production            # inventory file for production servers
